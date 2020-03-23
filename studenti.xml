@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
-    <student ID="11">
+    <student ID="22">
         <Nume>Roxi</Nume>
         <Grupa>932</Grupa>
     </student>
-    <student ID="1">
-        <Nume>Ana</Nume>
-        <Grupa>221</Grupa>
+    <student ID="23">
+        <Nume>Roxi</Nume>
+        <Grupa>932</Grupa>
     </student>
-    <student ID="2">
-        <Nume>Maria</Nume>
-        <Grupa>222</Grupa>
+    <student ID="24">
+        <Nume>Roxi</Nume>
+        <Grupa>932</Grupa>
     </student>
-    <student ID="4">
-        <Nume>Ion</Nume>
-        <Grupa>227</Grupa>
+    <student ID="25">
+        <Nume>Roxi</Nume>
+        <Grupa>932</Grupa>
     </student>
-    <student ID="10">
+    <student ID="26">
+        <Nume>Roxi</Nume>
+        <Grupa>932</Grupa>
+    </student>
+    <student ID="27">
+        <Nume>Roxi</Nume>
+        <Grupa>932</Grupa>
+    </student>
+    <student ID="28">
+        <Nume>Roxi</Nume>
+        <Grupa>932</Grupa>
+    </student>
+    <student ID="18">
+        <Nume>Ale</Nume>
+        <Grupa>932</Grupa>
+    </student>
+    <student ID="19">
+        <Nume>Roxi</Nume>
+        <Grupa>932</Grupa>
+    </student>
+    <student ID="20">
+        <Nume>Roxi</Nume>
+        <Grupa>932</Grupa>
+    </student>
+    <student ID="21">
         <Nume>Roxi</Nume>
         <Grupa>932</Grupa>
     </student>

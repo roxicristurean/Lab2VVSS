@@ -15,4 +15,14 @@
         <Deadline>9</Deadline>
         <Startline>7</Startline>
     </tema>
+    <tema ID="20">
+        <Descriere>description</Descriere>
+        <Deadline>2</Deadline>
+        <Startline>1</Startline>
+    </tema>
+    <tema ID="21">
+        <Descriere>description</Descriere>
+        <Deadline>2</Deadline>
+        <Startline>1</Startline>
+    </tema>
 </Entitati>

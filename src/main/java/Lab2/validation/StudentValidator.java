@@ -2,6 +2,8 @@ package Lab2.validation;
 import Lab2.domain.Student;
 
 public class StudentValidator implements Validator<Student> {
+
+    @Override
     public void validate(Student student) throws ValidationException {
         if (student.getID() == null || student.getID().equals("")) {
             throw new ValidationException("ID invalid! \n");
