@@ -4,6 +4,10 @@
         <Nume>Roxi</Nume>
         <Grupa>932</Grupa>
     </student>
+    <student ID="11">
+        <Nume>Roxi</Nume>
+        <Grupa>932</Grupa>
+    </student>
     <student ID="23">
         <Nume>Roxi</Nume>
         <Grupa>932</Grupa>
@@ -36,11 +40,27 @@
         <Nume>Roxi</Nume>
         <Grupa>932</Grupa>
     </student>
+    <student ID="1">
+        <Nume>Ale</Nume>
+        <Grupa>932</Grupa>
+    </student>
+    <student ID="2">
+        <Nume>Ale</Nume>
+        <Grupa>932</Grupa>
+    </student>
+    <student ID="3">
+        <Nume>Ale</Nume>
+        <Grupa>932</Grupa>
+    </student>
     <student ID="20">
         <Nume>Roxi</Nume>
         <Grupa>932</Grupa>
     </student>
     <student ID="21">
+        <Nume>Roxi</Nume>
+        <Grupa>932</Grupa>
+    </student>
+    <student ID="10">
         <Nume>Roxi</Nume>
         <Grupa>932</Grupa>
     </student>

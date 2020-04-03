@@ -4,6 +4,7 @@ import Lab2.domain.Nota;
 import Lab2.domain.Student;
 import Lab2.domain.Tema;
 import Lab2.repository.NotaXMLRepository;
+import Lab2.repository.StudentFileRepository;
 import Lab2.repository.StudentXMLRepository;
 import Lab2.repository.TemaXMLRepository;
 import Lab2.service.Service;
@@ -51,15 +52,63 @@ public class AppTest
     @Test
     public void testAddStudentDuplicateId() {
 
-//        assertTrue(service.saveStudent("10", "Roxi", 932) == 0);
-//        assertFalse(service.saveStudent("10", "Ale", 932) == 0);
+        //assertTrue(service.saveStudent("10", "Roxi", 932) == 0);
+        //assertFalse(service.saveStudent("10", "Ale", 932) == 0);
     }
 
     @Test
     public void testAddStudentToRepository(){
 
-//        assertTrue(service.saveStudent("11", "Roxi", 932) == 0);
-//        assertEquals(fileRepository1.findOne("11").getNume(), "Roxi");
+        //assertTrue(service.saveStudent("11", "Roxi", 932) == 0);
+        //assertEquals(fileRepository1.findOne("11").getNume(), "Roxi");
+    }
 
+    @Test
+    public void tc1AddStudentToRepository(){
+
+        assertTrue(service.saveStudent("11", "Roxi", 932) == 0);
+        assertEquals(fileRepository1.findOne("11").getNume(), "Roxi");
+    }
+
+    @Test
+    public void tc2AddStudentIdNull() {
+        assertFalse(service.saveStudent(null, "Roxi", 932) == 0);
+    }
+
+    @Test
+    public void tc3AddStudentIdEmpty() {
+        assertFalse(service.saveStudent("", "Roxi", 932) == 0);
+    }
+
+    @Test
+    public void tc4AddStudentNameNull() {
+        assertFalse(service.saveStudent("11", null, 932) == 0);
+    }
+
+    @Test
+    public void tc5AddStudentNameEmpty() {
+        assertFalse(service.saveStudent("11", "", 932) == 0);
+    }
+
+
+    @Test
+    public void tc6AddStudentGroup110Invalid() {
+        assertFalse(service.saveStudent("11", "Roxi", 110) == 0);
+    }
+
+    @Test
+    public void tc7AddStudentGroup938Invalid() {
+        assertFalse(service.saveStudent("11", "Roxi", 938) == 0);
+    }
+
+
+    @Test
+    public void tc8AddStudentGroup111Valid() {
+        assertTrue(service.saveStudent("11", "Roxi", 111) == 0);
+    }
+
+    @Test
+    public void tc9AddStudentGroup937Valid() {
+        assertTrue(service.saveStudent("11", "Roxi", 937) == 0);
     }
 }
