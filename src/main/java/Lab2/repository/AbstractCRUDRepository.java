@@ -30,14 +30,14 @@ public abstract class AbstractCRUDRepository<ID, E extends HasID<ID>> implements
 
     @Override
     public E save(E entity) throws ValidationException {
-        try {
-            validator.validate(entity);
-            return entities.putIfAbsent(entity.getID(), entity);
+
+        validator.validate(entity);
+
+        if (entities.get(entity.getID()) != null) {
+            throw new ValidationException("Duplicate ID! ");
         }
-        catch (ValidationException ve) {
-            System.out.println("Entitatea nu este valida! \n");
-            return null;
-        }
+        return entities.putIfAbsent(entity.getID(), entity);
+
     }
 
     @Override
