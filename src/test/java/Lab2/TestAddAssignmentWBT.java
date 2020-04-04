@@ -20,10 +20,10 @@ import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
 public class TestAddAssignmentWBT {
-    Service service;
-    StudentXMLRepository studentRepository;
-    TemaXMLRepository assignmentRepository;
-    NotaXMLRepository gradeRepository;
+    private Service service;
+    private StudentXMLRepository studentRepository;
+    private TemaXMLRepository assignmentRepository;
+    private NotaXMLRepository gradeRepository;
 
     @Before
     public void init(){
@@ -160,7 +160,7 @@ public class TestAddAssignmentWBT {
     }
 
     @Test
-    public void testAddAssignmentValidatorDeadline() {
+    public void testAddAssignmentValidatorDeadline1() {
         final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
 
@@ -180,10 +180,22 @@ public class TestAddAssignmentWBT {
             assertEquals("Deadline invalid! ", ve.getMessage());
         }
         assertNull(assignmentRepository.findOne(idAssignment));
+    }
 
-        deadline = 1;
-        startline = 3;
-        assigment = new Tema(idAssignment, description, deadline, startline);
+    @Test
+    public void testAddAssignmentValidatorDeadline2() {
+        final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        String idAssignment = "100";
+        String description = "description";
+        int deadline = 1;
+        int startline = 3;
+
+        Tema assigment = new Tema(idAssignment, description, deadline, startline);
+
+        assignmentRepository.delete(idAssignment);
+        assertNull(assignmentRepository.findOne(idAssignment));
 
         try {
             assignmentRepository.save(assigment);
@@ -191,20 +203,28 @@ public class TestAddAssignmentWBT {
             assertEquals("Deadline invalid! ", ve.getMessage());
         }
         assertNull(assignmentRepository.findOne(idAssignment));
+    }
 
-        deadline = -1;
-        startline = 3;
-        assigment = new Tema(idAssignment, description, deadline, startline);
+
+    @Test
+    public void testAddAssignmentValidatorDeadline3() {
+        final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        String idAssignment = "100";
+        String description = "description";
+        int deadline = -1;
+        int startline = 3;
+        Tema assigment = new Tema(idAssignment, description, deadline, startline);
+
+        assignmentRepository.delete(idAssignment);
+        assertNull(assignmentRepository.findOne(idAssignment));
 
         try {
             assignmentRepository.save(assigment);
         } catch (ValidationException ve) {
             assertEquals("Deadline invalid! ", ve.getMessage());
         }
-        assertNull(assignmentRepository.findOne(idAssignment));
-
-        service.saveTema(idAssignment, description, deadline, startline);
-        assertEquals("Deadline invalid! \n", outContent.toString());
         assertNull(assignmentRepository.findOne(idAssignment));
     }
 
@@ -239,7 +259,7 @@ public class TestAddAssignmentWBT {
     }
 
     @Test
-    public void testAddAssignmentValidatorDescription() {
+    public void testAddAssignmentValidatorDescriptionEmpty() {
         final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
 
@@ -260,8 +280,23 @@ public class TestAddAssignmentWBT {
         }
         assertNull(assignmentRepository.findOne(idAssignment));
 
-        description = null;
-        assigment = new Tema(idAssignment, description, deadline, startline);
+    }
+
+    @Test
+    public void testAddAssignmentValidatorDescriptionNull() {
+        final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        String idAssignment = "100";
+        String description = "";
+        int deadline = 2;
+        int startline = 1;
+
+        Tema assigment = new Tema(idAssignment, description, deadline, startline);
+
+        assignmentRepository.delete(idAssignment);
+        assertNull(assignmentRepository.findOne(idAssignment));
+
         try {
             assignmentRepository.save(assigment);
         } catch (ValidationException ve) {
@@ -269,17 +304,26 @@ public class TestAddAssignmentWBT {
         }
         assertNull(assignmentRepository.findOne(idAssignment));
 
-        description = "it should pass";
-        assigment = new Tema(idAssignment, description, deadline, startline);
-        try {
-            assignmentRepository.save(assigment);
-        } catch (ValidationException ve) {
-            assertEquals("Descriere invalida! ", ve.getMessage());
-        }
-        assertNotNull(assignmentRepository.findOne(idAssignment));
+    }
 
-        service.saveTema(idAssignment, "", deadline, startline);
-        assertEquals("Descriere invalida! \n", outContent.toString());
+    @Test
+    public void testAddAssignmentValidatorDescriptionValid() {
+        final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        String idAssignment = "100";
+        String description = "it should pass";
+        int deadline = 2;
+        int startline = 1;
+
+        Tema assigment = new Tema(idAssignment, description, deadline, startline);
+
+        assignmentRepository.delete(idAssignment);
+        assertNull(assignmentRepository.findOne(idAssignment));
+
+        assignmentRepository.save(assigment);
+
+        assertNotNull(assignmentRepository.findOne(idAssignment));
 
     }
 
