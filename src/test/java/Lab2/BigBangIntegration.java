@@ -41,7 +41,7 @@ public class BigBangIntegration {
     }
 
     @Test
-    public void testAddAssignment() {
+    public void testAddAssignmentToRepository() {
         String idAssignment = "1";
         String description = "description";
         int deadline = 2;
@@ -78,7 +78,7 @@ public class BigBangIntegration {
     @Test
     public void runAllTests(){
         testAddStudent();
-        testAddAssignment();
+        testAddAssignmentToRepository();
         testAddGrade();
     }
 
