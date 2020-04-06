@@ -3,11 +3,21 @@
     <nota IDStudent="1" IDTema="1">
         <Nota>10.0</Nota>
         <SaptamanaPredare>7</SaptamanaPredare>
-        <Feedback>done</Feedback>
+        <Feedback>Great assignment</Feedback>
     </nota>
     <nota IDStudent="1" IDTema="2">
         <Nota>7.5</Nota>
         <SaptamanaPredare>9</SaptamanaPredare>
         <Feedback>done</Feedback>
+    </nota>
+    <nota IDStudent="11" IDTema="100">
+        <Nota>10.0</Nota>
+        <SaptamanaPredare>7</SaptamanaPredare>
+        <Feedback>Great assignment</Feedback>
+    </nota>
+    <nota IDStudent="object1" IDTema="object2">
+        <Nota>10.0</Nota>
+        <SaptamanaPredare>7</SaptamanaPredare>
+        <Feedback>Great assignment</Feedback>
     </nota>
 </Entitati>

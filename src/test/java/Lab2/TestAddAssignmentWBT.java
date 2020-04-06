@@ -199,8 +199,10 @@ public class TestAddAssignmentWBT {
 
         try {
             assignmentRepository.save(assigment);
+            assert(false);
         } catch (ValidationException ve) {
             assertEquals("Deadline invalid! ", ve.getMessage());
+            assert(true);
         }
         assertNull(assignmentRepository.findOne(idAssignment));
     }
@@ -222,8 +224,10 @@ public class TestAddAssignmentWBT {
 
         try {
             assignmentRepository.save(assigment);
+            assert(false);
         } catch (ValidationException ve) {
             assertEquals("Deadline invalid! ", ve.getMessage());
+            assert(true);
         }
         assertNull(assignmentRepository.findOne(idAssignment));
     }
