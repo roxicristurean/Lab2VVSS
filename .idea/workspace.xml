@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f66e2c22-1ce6-4176-9c1d-c482b5f53721" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lab2/BigBangIntegration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note.xml" beforeDir="false" afterPath="$PROJECT_DIR$/note.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lab2/TestAddAssignmentWBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2/TestAddAssignmentWBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/studenti.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Lab2/TestAddAssignmentWBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lab2/TestAddAssignmentWBT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/teme.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,13 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lab2/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="64" column="5" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1390#1391#0" expanded="true" />
-                <element signature="e#1424#1425#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1755">
+              <caret line="130" column="71" selection-start-line="130" selection-start-column="71" selection-end-line="130" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -39,8 +28,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lab2/TestAddAssignmentWBT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="127" column="5" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Lab2/BigBangIntegration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1">
+              <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,76 +50,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Lab2/BigBangIntegration.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Lab2/IncrementalTopDownTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+            <state relative-caret-position="678">
+              <caret line="81" column="34" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2/domain/Pair.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2/domain/Nota.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="95" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2/repository/AbstractXMLRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="88" column="25" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2/repository/AbstractCRUDRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2/repository/TemaFileRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2/repository/TemaRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2/repository/TemaXMLRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -148,20 +86,27 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Lab2/TestAddAssignmentWBT.java" />
         <option value="$PROJECT_DIR$/src/test/java/Lab2/BigBangIntegration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Lab2/IncrementalTopDownTests.java" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="1440" />
+    <option name="width" value="1280" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,72 +123,6 @@
               <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab2VVSS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2VVSS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2VVSS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2VVSS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2VVSS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2VVSS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2VVSS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2VVSS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
-              <item name="validation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2VVSS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -260,16 +139,13 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Lab2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2VVSS" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="CatdeaLogs" />
     </panes>
   </component>
@@ -277,7 +153,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585935090483" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588326720346" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -294,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BigangIntegration">
+  <component name="RunManager" selected="JUnit.IncrementalTopDownTests">
     <configuration name="AddAssignmentWBT" type="JUnit" factoryName="JUnit">
       <module name="Lab2" />
       <option name="PACKAGE_NAME" value="Lab2" />
@@ -321,70 +197,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.tc1AddStudentToRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lab2" />
-      <option name="MAIN_CLASS_NAME" value="Lab2.AppTest" />
-      <option name="METHOD_NAME" value="tc1AddStudentToRepository" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testAddStudentGroup937Valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lab2" />
-      <option name="MAIN_CLASS_NAME" value="Lab2.AppTest" />
-      <option name="METHOD_NAME" value="testAddStudentGroup937Valid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testAddStudentGroup938Invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lab2" />
-      <option name="MAIN_CLASS_NAME" value="Lab2.AppTest" />
-      <option name="METHOD_NAME" value="testAddStudentGroup938Invalid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testAddStudentGroup939Valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lab2" />
-      <option name="MAIN_CLASS_NAME" value="Lab2.AppTest" />
-      <option name="METHOD_NAME" value="testAddStudentGroup939Valid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BigangIntegration" type="JUnit" factoryName="JUnit">
       <module name="Lab2" />
       <option name="PACKAGE_NAME" value="Lab2" />
@@ -396,22 +208,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IncrementalTopDownTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab2" />
+      <option name="MAIN_CLASS_NAME" value="Lab2.IncrementalTopDownTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncrementalTopDownTests.testAddStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab2" />
+      <option name="MAIN_CLASS_NAME" value="Lab2.IncrementalTopDownTests" />
+      <option name="METHOD_NAME" value="testAddStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncrementalTopDownTests.testAddStudentAndAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab2" />
+      <option name="MAIN_CLASS_NAME" value="Lab2.IncrementalTopDownTests" />
+      <option name="METHOD_NAME" value="testAddStudentAndAssignment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncrementalTopDownTests.testAddStudentAndAssignmentAndGrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab2" />
+      <option name="MAIN_CLASS_NAME" value="Lab2.IncrementalTopDownTests" />
+      <option name="METHOD_NAME" value="testAddStudentAndAssignmentAndGrade" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.AddAssignmentWBT" />
       <item itemvalue="JUnit.BigangIntegration" />
-      <item itemvalue="JUnit.AppTest.tc1AddStudentToRepository" />
-      <item itemvalue="JUnit.AppTest.testAddStudentGroup937Valid" />
-      <item itemvalue="JUnit.AppTest.testAddStudentGroup938Invalid" />
-      <item itemvalue="JUnit.AppTest.testAddStudentGroup939Valid" />
       <item itemvalue="JUnit.AppTest" />
+      <item itemvalue="JUnit.IncrementalTopDownTests.testAddStudent" />
+      <item itemvalue="JUnit.IncrementalTopDownTests.testAddStudentAndAssignment" />
+      <item itemvalue="JUnit.IncrementalTopDownTests.testAddStudentAndAssignmentAndGrade" />
+      <item itemvalue="JUnit.IncrementalTopDownTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IncrementalTopDownTests" />
+        <item itemvalue="JUnit.IncrementalTopDownTests.testAddStudentAndAssignmentAndGrade" />
+        <item itemvalue="JUnit.IncrementalTopDownTests.testAddStudentAndAssignment" />
+        <item itemvalue="JUnit.IncrementalTopDownTests.testAddStudent" />
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.tc1AddStudentToRepository" />
-        <item itemvalue="JUnit.AppTest.testAddStudentGroup939Valid" />
-        <item itemvalue="JUnit.AppTest.testAddStudentGroup938Invalid" />
-        <item itemvalue="JUnit.AppTest.testAddStudentGroup937Valid" />
       </list>
     </recent_temporary>
   </component>
@@ -427,6 +302,7 @@
       <updated>1585927334529</updated>
       <workItem from="1585927344026" duration="498000" />
       <workItem from="1585928079609" duration="3252000" />
+      <workItem from="1588326332160" duration="675000" />
     </task>
     <task id="LOCAL-00001" summary="modified pom">
       <created>1586020585460</created>
@@ -446,18 +322,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddAssignmentWBT - 2020.04.04 at 21h 47m 30s.xml">
-      <configuration name="AddAssignmentWBT" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddAssignmentWBT - 2020.04.04 at 21h 47m 41s.xml">
-      <configuration name="AddAssignmentWBT" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BigangIntegration - 2020.04.05 at 20h 22m 39s.xml">
-      <configuration name="BigangIntegration" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BigangIntegration - 2020.04.05 at 20h 23m 09s.xml">
-      <configuration name="BigangIntegration" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BigangIntegration - 2020.04.05 at 20h 23m 39s.xml">
       <configuration name="BigangIntegration" configurationId="JUnit" />
     </history-entry>
@@ -476,9 +340,21 @@
     <history-entry file="BigangIntegration - 2020.04.06 at 10h 14m 03s.xml">
       <configuration name="BigangIntegration" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IncrementalTopDownTests_testAddStudent - 2020.04.30 at 19h 13m 22s.xml">
+      <configuration name="IncrementalTopDownTests.testAddStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IncrementalTopDownTests_testAddStudentAndAssignment - 2020.04.30 at 19h 14m 25s.xml">
+      <configuration name="IncrementalTopDownTests.testAddStudentAndAssignment" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IncrementalTopDownTests_testAddStudentAndAssignmentAndGrade - 2020.04.30 at 19h 14m 35s.xml">
+      <configuration name="IncrementalTopDownTests.testAddStudentAndAssignmentAndGrade" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IncrementalTopDownTests - 2020.05.01 at 12h 49m 08s.xml">
+      <configuration name="IncrementalTopDownTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15982000" />
+    <option name="totallyTimeSpent" value="17857000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,10 +366,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="1440" y="0" width="1280" height="1024" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16178267" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18203883" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -502,14 +377,14 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993895" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.60927963" visible="true" weight="0.29183674" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.60841423" weight="0.25366876" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4969475" weight="0.477551" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4981685" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498779" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4975728" visible="true" weight="0.32914045" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3907204" side_tool="true" visible="true" weight="0.29183674" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50242716" side_tool="true" visible="true" weight="0.32914045" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4993895" weight="0.32959184" />
       <window_info anchor="bottom" id="Flutter Performance" order="12" side_tool="true" />
@@ -544,12 +419,6 @@
           <line>772</line>
           <properties />
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Lab2/TestAddAssignmentWBT.java</url>
-          <line>213</line>
-          <properties />
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -759,21 +628,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab2/validation/TemaValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab2/validation/StudentValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab2/service/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
+        <state relative-caret-position="420">
           <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
         </state>
       </provider>
@@ -820,28 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Lab2/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="e#1424#1425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Lab2/TestAddAssignmentWBT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="127" column="5" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab2/domain/Nota.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -858,22 +705,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab2/repository/AbstractCRUDRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="405">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab2/repository/AbstractXMLRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="88" column="25" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+        <state relative-caret-position="1110">
+          <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Lab2/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="130" column="71" selection-start-line="130" selection-start-column="71" selection-end-line="130" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Lab2/TestAddAssignmentWBT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Lab2/BigBangIntegration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+        <state relative-caret-position="-1">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Lab2/IncrementalTopDownTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="81" column="34" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
